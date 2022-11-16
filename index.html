@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>example of outurl.js</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!--if we can't load CDN,including local resource -->
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            document.write(unescape("%3Cscript src='/js/jquery-3.6.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+    </script>
+    <script src="js/outurl.js"></script>
+    <link rel="stylesheet" href="styles/list.css">
+    <link rel="stylesheet" href="styles/alert.css">
+</head>
+<body>
+
+<div class="list-box">
+    <div class="m-liststyle1 list-switch f-clearfix tab-content1 tabactive"  style="display: block;">
+        <ul>
+            <li >
+                <span >2022-11-15</span>
+                <a href="www.yourdomain1.com"  title="湖北男子举重运动员向飞洋勇夺全锦赛冠军" target="_blank" >湖北男子举重运动员向飞洋勇夺全锦赛冠军</a>
+            </li>
+            <li >
+                <span >2022-11-15</span>
+                <a href="#"  title="中国男篮调整主教练，杜锋卸任，乔尔杰维奇上任" target="_blank" >中国男篮调整主教练，杜锋卸任，乔尔杰维奇上任</a>
+            </li>
+            <li >
+                <span >2022-11-15</span>
+                <a href="#"  title="走近卡塔尔世界杯：上届冠军出局、东道主出战，世界杯.." target="_blank" >走近卡塔尔世界杯：上届冠军出局、东道主出战，世界杯..</a>
+            </li>
+            <li >
+                <span >2022-11-15</span>
+                <a href="#"  title="梅西“最后一舞”期待圆梦：一切的一切只因深爱阿根廷.." target="_blank" >梅西“最后一舞”期待圆梦：一切的一切只因深爱阿根廷..</a>
+            </li>
+            <li >
+                <span >2022-11-15</span>
+                <a href="#"  title="祝贺！福建水球选手张婧、李梓琪斩获亚洲冠军！" target="_blank" >祝贺！福建水球选手张婧、李梓琪斩获亚洲冠军！</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>
